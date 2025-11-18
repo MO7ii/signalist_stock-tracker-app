@@ -1,13 +1,14 @@
+"use client";
+
 import React from 'react'
 import {useForm} from "react-hook-form";
-import {useRouter} from "next/navigation";
+
 import InputsField from "@/components/forms/InputsField";
 import FooterLink from "@/components/forms/FooterLink";
 
 
-
 const SignIn = () => {
-    const router = useRouter();
+
     const {
         register,
         handleSubmit,
